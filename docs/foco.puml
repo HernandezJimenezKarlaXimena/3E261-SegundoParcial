@@ -8,8 +8,9 @@
     +Apagar()
  }
 
- class EstadoFoco 
-
+ class EstadoFoco {
+ -EstadoFoco estado
+ }
  Usuario o-- Foco
  Foco *-- EstadoFoco
 
