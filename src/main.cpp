@@ -1,14 +1,17 @@
 #include<iostream>
-int main (argc, aru){
-    return EXIT_SUCCESS;
-}
+#include<Foco.hpp>
 
 int main(int argc, char const *argv[])
 {
-    while (condition)
-    {
-        /* code */
-    }
-    
+Foco foquito;
+
+foquito.Encender();
+foquito. Apagar();
+
+std::cout
+<< "Estado Foco: "
+<< foquito.LeerEstado()
+<< std::endl;
+
     return 0;
 }
