@@ -13,8 +13,22 @@ class SerieFocos
     void MostrarFocos(){
         for (auto &&f : focos)
         {
-            std::cout<<f.LeerEstado();
+            std::cout<<f.LeerEstado()<< std::endl;
         }
         
     }
-}
+    void EncenderFocos(){
+        for (auto &&f : focos)
+        {
+            f.Encender();
+        }
+        
+    }
+    void ApagarFocos(){
+        for (auto &&f : focos)
+        {
+            f.Apagar();
+        }
+        
+    }
+};
